@@ -132,7 +132,7 @@ void help()
 {
     FILE *f;
     f=fopen("help.txt","w");
-    fprintf(f,"The purpose of the game is to answer as fast as possible to all questions.\nIf your answer is wrong, the enemy gangster will shot you and you will lose hp. If you are too slow, you will be killed by a headshow.\nVisit MihailProductions.com");
+    fprintf(f,"The purpose of the game is to answer as fast as possible to all questions.\nIf your answer is wrong, the enemy gangster will shot you and you will lose hp. If you are too slow, you will be killed by a headshot.\nVisit MihailProductions.com");
     fclose(f);
     printf("The help.txt file was generated. \n\n");
 }
